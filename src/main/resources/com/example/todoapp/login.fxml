@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.todoapp.controller.LoginController">
+   <ImageView fitHeight="400.0" fitWidth="700.0">
+      <image>
+         <Image url="@assets/background.png" />
+      </image>
+   </ImageView>
+
+  <Label alignment="CENTER" layoutX="171.0" layoutY="51.0" prefHeight="76.0" prefWidth="387.0" text="Task Manager" textAlignment="CENTER">
+    <font>
+      <Font name="Ink Free" size="60.0" />
+    </font>
+      <textFill>
+         <RadialGradient centerX="0.48347107438016523" centerY="0.5260047281323877" focusAngle="-111.8" focusDistance="0.011428571428571344" radius="0.38285714285714284">
+            <stops>
+               <Stop>
+                  <color>
+                     <Color red="0.06578947603702545" green="0.06365741044282913" blue="0.06365741044282913" />
+                  </color>
+               </Stop>
+               <Stop offset="1.0">
+                  <color>
+                     <Color red="0.1184210553765297" green="0.11403508484363556" blue="0.11403508484363556" />
+                  </color>
+               </Stop>
+            </stops>
+         </RadialGradient>
+      </textFill>
+  </Label>
+  <JFXButton fx:id="loginSignupButton" layoutX="365.0" layoutY="233.0" prefHeight="33.0" prefWidth="79.0" style="-fx-background-color: #9a0007;" text="Sign Up" textFill="#faf7f7">
+      <font>
+         <Font name="System Bold Italic" size="15.0" />
+      </font></JFXButton>
+   <TextField fx:id="loginUsername" layoutX="244.0" layoutY="144.0" prefHeight="33.0" prefWidth="225.0" promptText="Username">
+      <font>
+         <Font size="16.0" />
+      </font></TextField>
+   <JFXButton fx:id="loginButton" layoutX="278.0" layoutY="233.0" prefHeight="33.0" prefWidth="79.0" style="-fx-background-color: #424242;" text="Login" textFill="#faf7f7">
+      <font>
+         <Font name="System Bold Italic" size="15.0" />
+      </font>
+   </JFXButton>
+   <PasswordField fx:id="loginPassword" layoutX="244.0" layoutY="189.0" prefHeight="36.0" prefWidth="225.0" promptText="Password">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </PasswordField>
+</AnchorPane>

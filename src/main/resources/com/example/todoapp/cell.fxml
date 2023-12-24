@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane" prefHeight="132.0" prefWidth="395.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="-1.0" prefHeight="110.0" prefWidth="396.0" style="-fx-background-color: #424242;">
+         <children>
+            <ImageView fx:id="iconImageView" fitHeight="48.0" fitWidth="48.0" layoutX="14.0" layoutY="52.0">
+               <image>
+                  <Image url="@assets/icon_tasks.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="taskLabel" layoutX="67.0" layoutY="15.0" prefHeight="25.0" prefWidth="165.0" text="Task" textFill="#fdf9f9">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Label>
+            <Label fx:id="descriptionLabel" layoutX="67.0" layoutY="55.0" prefHeight="41.0" prefWidth="315.0" style="-fx-background-color: white;" text="Description" textFill="#141414">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Label>
+            <ImageView fx:id="deleteButton" fitHeight="41.0" fitWidth="48.0" layoutX="14.0" layoutY="8.0">
+               <image>
+                  <Image url="@assets/icons-delete.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="refreshButton" fitHeight="41.0" fitWidth="48.0" layoutX="334.0" layoutY="8.0">
+               <image>
+                  <Image url="@assets/icons-refresh.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label fx:id="dataLabel" layoutX="244.0" layoutY="110.0" prefHeight="17.0" prefWidth="121.0" text="Date Created" textFill="#0f0f0f">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
