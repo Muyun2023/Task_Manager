@@ -1,4 +1,4 @@
-<h1 align="center"> Delivery Manager</h1>
+<h1 align="center"> Task Manager</h1>
 
 <p align="center">
 A Task Management System as the final project of NEU course INFO5100 Application Engineering and Development. <br/>
