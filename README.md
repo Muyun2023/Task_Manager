@@ -20,7 +20,7 @@ I built a Task Management System based on JavaFX and MySQL for efficient daily t
 <img src="demo/AddItem1.png" width="500">
 <img src="demo/AddItem2.png" width="500">
 <img src="demo/TaskList.png" width="500">
-<img src="demo/UpdateTask.png" width="400">
+<img src="demo/UpdateTask.png" width="300">
 </div>
 
 # 💻 Environment
