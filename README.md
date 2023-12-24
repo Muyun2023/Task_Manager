@@ -12,14 +12,14 @@ A Task Management System as the final project of NEU course INFO5100 Application
 <!-- TOC -->
 
 # 📑 Overview
-In this project, I built a Task Management System based on JavaFX and MySQL for efficient daily tasks arrangement. 
+I built a Task Management System based on JavaFX and MySQL for efficient daily tasks arrangement. 
 ### Preview
 <div align="center">
-<img src="demo/Login.png" width="600">
-<img src="demo/SignUp.png" width="600">
-<img src="demo/AddItem1.png" width="600">
-<img src="demo/AddItem2.png" width="600">
-<img src="demo/TaskList.png" width="600">
+<img src="demo/Login.png" width="500">
+<img src="demo/SignUp.png" width="500">
+<img src="demo/AddItem1.png" width="500">
+<img src="demo/AddItem2.png" width="500">
+<img src="demo/TaskList.png" width="500">
 <img src="demo/UpdateTask.png" width="400">
 </div>
 
