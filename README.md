@@ -20,7 +20,7 @@ Built a Task Management System based on JavaFX and MySQL, enabling efficient sch
 <img src="demo/AddItem1.png" width="500">
 <img src="demo/AddItem2.png" width="500">
 <img src="demo/TaskList.png" width="500">
-<img src="demo/UpdateTask.png" width="300">
+<img src="demo/UpdateTask.png" width="400">
 </div>
 
 # 💻 Environment
@@ -40,7 +40,7 @@ This project was developed with the following technologies:
 - SceneBuilder
 - IntelliJ
   
-OOD concepts used:
+OOP/OOD concepts used:
 - Inheritance/Polymorphism
 - Abstract Classes/Interfaces
 - Generics/Collections/Iterators
