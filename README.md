@@ -40,7 +40,7 @@ This project was developed with the following technologies:
 - SceneBuilder
 - IntelliJ
   
-OOP/OOD concepts used:
+OOD/OOP concepts used:
 - Inheritance/Polymorphism
 - Abstract Classes/Interfaces
 - Generics/Collections/Iterators
